@@ -1,0 +1,12 @@
+name: WorldJoinMessage
+version: ${project.version}
+main: ca.masseyhacks.worldjoinmessage.WorldJoinMessage
+api-version: '1.15'
+author: David Hui
+commands:
+  wjmreload:
+    description: Reload World Join Messages.
+permissions:
+  masseyhacks.worldjoinmessage.reload:
+    description: Allows user to reload plugin configuration.
+    default: op
